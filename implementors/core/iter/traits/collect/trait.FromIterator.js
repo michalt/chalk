@@ -1,0 +1,9 @@
+(function() {var implementors = {};
+implementors["chalk_ir"] = [{text:"impl&lt;TF&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/iter/traits/collect/trait.FromIterator.html\" title=\"trait core::iter::traits::collect::FromIterator\">FromIterator</a>&lt;<a class=\"struct\" href=\"chalk_ir/struct.Goal.html\" title=\"struct chalk_ir::Goal\">Goal</a>&lt;TF&gt;&gt; for <a class=\"struct\" href=\"https://doc.rust-lang.org/nightly/alloc/boxed/struct.Box.html\" title=\"struct alloc::boxed::Box\">Box</a>&lt;<a class=\"struct\" href=\"chalk_ir/struct.Goal.html\" title=\"struct chalk_ir::Goal\">Goal</a>&lt;TF&gt;&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;TF: <a class=\"trait\" href=\"chalk_ir/family/trait.TypeFamily.html\" title=\"trait chalk_ir::family::TypeFamily\">TypeFamily</a>,&nbsp;</span>",synthetic:false,types:["alloc::boxed::Box"]},{text:"impl&lt;TF&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/iter/traits/collect/trait.FromIterator.html\" title=\"trait core::iter::traits::collect::FromIterator\">FromIterator</a>&lt;<a class=\"struct\" href=\"chalk_ir/struct.Goal.html\" title=\"struct chalk_ir::Goal\">Goal</a>&lt;TF&gt;&gt; for <a class=\"struct\" href=\"chalk_ir/struct.Goal.html\" title=\"struct chalk_ir::Goal\">Goal</a>&lt;TF&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;TF: <a class=\"trait\" href=\"chalk_ir/family/trait.TypeFamily.html\" title=\"trait chalk_ir::family::TypeFamily\">TypeFamily</a>,&nbsp;</span>",synthetic:false,types:["chalk_ir::Goal"]},];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        })()
